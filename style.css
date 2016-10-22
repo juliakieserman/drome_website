@@ -1,6 +1,3 @@
-p{text-align: center;font-family: 'Open Sans Condensed', sans-serif;font-size: 2em;}
-
-/* WORDS SWAP */
 [data-words]{
   vertical-align: top;
   position: static;
@@ -8,4 +5,17 @@ p{text-align: center;font-family: 'Open Sans Condensed', sans-serif;font-size: 2
 [data-words] > span{
   position: absolute;
   color: chocolate;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+a {
+  text-align: center;
+}
+
+body {
+  background: url(picture2.jpg);
+  background-size:cover;
 }
