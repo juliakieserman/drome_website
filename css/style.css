@@ -1,0 +1,21 @@
+[data-words]{
+  vertical-align: top;
+  position: static;
+}
+[data-words] > span{
+  position: absolute;
+  color: chocolate;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+a {
+  text-align: center;
+}
+
+body {
+  background: url(picture2.jpg);
+  background-size:cover;
+}
