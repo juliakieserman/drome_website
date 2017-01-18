@@ -1,0 +1,336 @@
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+ @font-face {
+   font-family: Beans_Plantain;: 'Beans_Plantain';
+   src: URL('Beans_Plantain.ttf') format ('ttf');
+ }
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+  font-size: 20px;
+}
+
+.article-title {
+  text-align: center;
+  font-family: Beans_Plantain;
+  font-size: 20px;
+  color: #dfbab4;
+}
+
+ .btn.outline {
+     background: none;
+     padding: 12px 22px;
+ }
+ .btn-primary.outline {
+     border: 2px solid #0099cc;
+     color: #0099cc;
+ }
+ .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+     color: #33a6cc;
+     border-color: #33a6cc;
+ }
+ .btn-primary.outline:active, .btn-primary.outline.active {
+     border-color: #007299;
+     color: #007299;
+     box-shadow: none;
+ }
+
+.navbar-inverse {
+  background-color: white;
+  border-color: transparent;
+}
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+img.front-page {
+  max-width: 400px;
+  max-height: 700px;
+}
+
+.by-line {
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+img.centered{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#nav-logo {
+  max-width: 10%;
+}
+
+section#artists a {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.artists1 {
+  color: black;
+}
+
+.artists2 {
+  color: #dfbab4;
+}
+
+#logo-base {
+  width: 50px;
+  height: auto;
+  float:left;
+}
+
+#logo-base img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+a:hover {
+  color: #dfbab4;
+  text-decoration: none;
+}
+
+.info {
+  color: white;
+}
+
+.cover-photo {
+  margin-left: auto;
+  margin-right: auto;
+}
+.hovereffect {
+  width:100%;
+  height:100%;
+  float:left;
+  overflow:hidden;
+  position:relative;
+  text-align:center;
+  cursor:default;
+  border: 0;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+}
+
+.horizontal-photo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#instafeed a {
+  padding:5px 5px 1px 5px;
+  margin:10px;
+  border:1px solid #e1e1e1;
+  display:inline-block;
+  border-radius: 4px;
+  position:relative;
+}
+
+.power {
+  color: #dfbab4;
+  font-weight: bold;
+}
+
+.text-indent {
+  text-indent: 50px;
+}
+
+.logo-style {
+  max-width: 10%;
+}
+
+.drome-styling {
+  color: #dfbab4;
+}
+
+.word-emphasis {
+  font-weight: bold;
+}
+ .typed-cursor{
+     opacity: 1;
+     -webkit-animation: blink 0.7s infinite;
+     -moz-animation: blink 0.7s infinite;
+     animation: blink 0.7s infinite;
+     font-size: 50px;
+ }
+
+.logo-responsive {
+  max-width: 10%;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Beans_Plantain;
+}
+.text-muted {
+  color: #777777;
+  line-height:1;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Beans_Plantain;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+.img-centered {
+  margin: 0 auto;
+}
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+
+header {
+  /*background-image: url('../img/DRØME_3.jpg');*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 50px;
+}
+
+.carly-intro {
+  font-size: 20px;
+  color: #dfbab4;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
+}
+
+.col-centered {
+  margin: 0 auto;
+  float: none;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: Beans_Plantain;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: Beans_Plantain;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #dfbab4;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #dfbab4;
+}
+::selection {
+  text-shadow: none;
+  background: #dfbab4;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
